@@ -1,0 +1,30 @@
+Enter number of processes
+5
+Enter instances of 3 resources
+10
+5
+7
+Enter Max needs of resources followed by allocation of resources
+7 5 3 0 1 0
+3 2 2 3 0 2
+9 0 2 3 0 2
+2 2 2 2 1 1
+4 3 3 0 0 2
+Enter process who need resource allocation(0-n)
+1
+Enter resources for request
+1 0 2
+Number of processes : 5
+Available:  2,  3,  0
+    |Max|   |Alloc|  |Need|
+P0 |7 5 3| |0 1 0| |7 4 3|
+P1 |3 2 2| |3 0 2| |0 2 0|
+P2 |9 0 2| |3 0 2| |6 0 0|
+P3 |2 2 2| |2 1 1| |0 1 1|
+P4 |4 3 3| |0 0 2| |4 3 1|
+Safety sequence P1
+Safety sequence P3
+Safety sequence P4
+Safety sequence P0
+Safety sequence P2
+Request Granted
